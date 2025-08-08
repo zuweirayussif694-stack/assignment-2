@@ -7,21 +7,19 @@ print("cleaned name:", clean_name)
 print("lowercase name:",lowercase_name)
 print("titlecase name:", titlecase_name)
 print("lenght of name:", len(clean_name))
-print("first character:", clean_name[0])
-print("last character:", clean_name[-1])
-print("first 5 numbers:", clean_name[:5])
-print("last 5 numbers:", clean_name[-5:])
 
 book_title = "the great circus in India"
 formatted_title = book_title.capitalize()
 print("original book title:", book_title)
 print("formatted book title:", formatted_title)
 
-product_code = "bj-345-NOVEL"
+product_code = "bk-345-NOVEL"
 uppercase_code = product_code.upper()
-new_seperator_code = uppercase_code.replace("-", "_")
+new_seperator_code = uppercase_code.replace("-", "/")
 print("original product code:", product_code)
 print("uppercase product code:", uppercase_code)
+print("new seperator product code:", new_seperator_code)
+
 
 review = "This book is great. I love it!"
 book_count = review.count("book")
